@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Swordtest</string>
+
+    <!-- Login Activity -->
+    <string name="tv_email">Email</string>
+    <string name="tv_password">Password</string>
+
+    <string name="bt_login">Login</string>
+    <string name="bt_close">Close</string>
+
+    <string name="er_mandatory">This field is required!</string>
+    <string name="er_nonexistent">Nonexistent Username!</string>
+    <string name="er_invalid">Invalid Password!</string>
+    <string name="er_error">Error!</string>
+    <string name="er_lengthpassword">Must be at least 6 characters!</string>
+    <string name="er_invalide_email">Invalid Email</string>
+
+    <string name="sp_username">username</string>
+    <string name="sp_password">password</string>
+    <string name="sp_exists">exists</string>
+
+    <!-- Main Activity -->
+    <string name="tv_doctorname">Dr. John Anderson</string>
+
+    <string name="bt_save">Save</string>
+
+    <string name="et_dialog_hint">Enter URL</string>
+
+    <string name="er_nointernetconnection">No Internet Connection</string>
+
+    <!-- Utils -->
+    <string name="utils_sppatiens">patients</string>
+    <string name="adapter_years">Years Old</string>
+    <string name="sp_url">url</string>
+
+    <!-- CardLayout -->
+    <string name="tv_status">STATUS</string>
+    <string name="tv_compliance">COMPLIANCE</string>
+    <string name="tv_lastsession">LAST SESSION</string>
+    <string name="_2_days_ago">2 days ago</string>
+</resources>

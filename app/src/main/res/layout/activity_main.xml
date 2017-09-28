@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testsword.swordtest.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@color/coral_pink" >
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_margin_left"
+            android:layout_marginStart="@dimen/iv_margin_left"
+            android:src="@drawable/logo_sword" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_doctorname"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ivUserPhoto"
+            android:layout_toStartOf="@+id/ivUserPhoto"
+            android:textSize="13sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/ivUserPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/iv_doctor_left"
+            android:layout_marginStart="@dimen/iv_doctor_left"
+            android:layout_marginRight="@dimen/iv_doctor_right"
+            android:layout_marginEnd="@dimen/iv_doctor_right"
+            android:layout_toLeftOf="@+id/ibSettings"
+            android:layout_toStartOf="@+id/ibSettings"
+            android:src="@drawable/photo_professional" />
+
+        <ImageButton
+            android:id="@+id/ibSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/settings" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="layout_width_box">300dp</dimen>
+    <dimen name="margin_top_tv_et">8dp</dimen>
+    <dimen name="iv_margin_left">11dp</dimen>
+    <dimen name="iv_doctor_left">5dp</dimen>
+    <dimen name="iv_doctor_right">10dp</dimen>
+</resources>
